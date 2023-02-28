@@ -29,3 +29,6 @@ var bigNumbers = [45,73,195,53]
 var computedNumbers = [bigNumbers[0]*bigNumbers[1],bigNumbers[1]*bigNumbers[2],bigNumbers[2]*bigNumbers[3]]
 //print(computedNumbers)
 
+// Functions
+func hi(){print("Hi")}
+//for _ in (1...4){hi()} // call 4 times the function hi
