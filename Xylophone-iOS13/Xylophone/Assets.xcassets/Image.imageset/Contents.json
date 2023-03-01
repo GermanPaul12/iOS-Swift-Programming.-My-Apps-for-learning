@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Bg Blue Orange.png",
+      "filename" : "Kopf ohne Bg.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Bg Blue Orange@2x.png",
+      "filename" : "Kopf ohne Bg@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Bg Blue Orange@3x.png",
+      "filename" : "Kopf ohne Bg@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
