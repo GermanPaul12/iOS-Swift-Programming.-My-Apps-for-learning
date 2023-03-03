@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B04E37F8-EF90-468C-AC1F-D56BE42BC811"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00170609-D1A5-4147-9631-469E77A8D61E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BMI-Calculator-LayoutPractice/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "CalculateViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEC8D41F-1B6F-40A0-BC5B-D674C8CE80ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BMI-Calculator-LayoutPractice/Controllers/ResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ResultViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AEC8D41F-1B6F-40A0-BC5B-D674C8CE80ED - b6272af354c55142"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BMI_Calculator_LayoutPractice.ResultViewController.bmiAdviceLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "BMI-Calculator-LayoutPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/german/Documents/Learning/iOS%20and%20Swift/Coding/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Controllers/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "AEC8D41F-1B6F-40A0-BC5B-D674C8CE80ED - 6a65caadcd27dc56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BMI_Calculator_LayoutPractice.ResultViewController.bmiAdviceLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "BMI-Calculator-LayoutPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/german/Documents/Learning/iOS%20and%20Swift/Coding/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Controllers/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "AEC8D41F-1B6F-40A0-BC5B-D674C8CE80ED - 52a8e8df56892ad0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BMI_Calculator_LayoutPractice.ResultViewController.bmiAdviceLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "BMI-Calculator-LayoutPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/german/Documents/Learning/iOS%20and%20Swift/Coding/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Controllers/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "AEC8D41F-1B6F-40A0-BC5B-D674C8CE80ED - a3d227c8040bc549"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BMI_Calculator_LayoutPractice.ResultViewController.bmiAdviceLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "BMI-Calculator-LayoutPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/german/Documents/Learning/iOS%20and%20Swift/Coding/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Controllers/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "AEC8D41F-1B6F-40A0-BC5B-D674C8CE80ED - ed4da0121770a0ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BMI_Calculator_LayoutPractice.ResultViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BMI_Calculator_LayoutPractice.ResultViewController"
+                  moduleName = "BMI-Calculator-LayoutPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/german/Documents/Learning/iOS%20and%20Swift/Coding/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Controllers/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "AEC8D41F-1B6F-40A0-BC5B-D674C8CE80ED - ebd3e8a1c5078f06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BMI_Calculator_LayoutPractice.ResultViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BMI_Calculator_LayoutPractice.ResultViewController&gt;"
+                  moduleName = "BMI-Calculator-LayoutPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/german/Documents/Learning/iOS%20and%20Swift/Coding/BMI-Calculator-iOS13-LayoutPractice/BMI-Calculator-LayoutPractice/Controllers/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
