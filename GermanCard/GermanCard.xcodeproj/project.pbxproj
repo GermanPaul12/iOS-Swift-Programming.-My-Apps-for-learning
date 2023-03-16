@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE15172B29C31075002DCC55 /* GermanCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15172A29C31075002DCC55 /* GermanCardApp.swift */; };
+		DE15172D29C31075002DCC55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15172C29C31075002DCC55 /* ContentView.swift */; };
+		DE15172F29C31077002DCC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE15172E29C31077002DCC55 /* Assets.xcassets */; };
+		DE15173229C31077002DCC55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE15173129C31077002DCC55 /* Preview Assets.xcassets */; };
+		DE15173C29C31077002DCC55 /* GermanCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15173B29C31077002DCC55 /* GermanCardTests.swift */; };
+		DE15174629C31077002DCC55 /* GermanCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15174529C31077002DCC55 /* GermanCardUITests.swift */; };
+		DE15174829C31078002DCC55 /* GermanCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15174729C31078002DCC55 /* GermanCardUITestsLaunchTests.swift */; };
+		DE15175629C313B2002DCC55 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE15175529C313B2002DCC55 /* Pacifico-Regular.ttf */; };
+		DE15175929C31E77002DCC55 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15175829C31E77002DCC55 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE15173829C31077002DCC55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE15171F29C31075002DCC55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE15172629C31075002DCC55;
+			remoteInfo = GermanCard;
+		};
+		DE15174229C31077002DCC55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE15171F29C31075002DCC55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE15172629C31075002DCC55;
+			remoteInfo = GermanCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE15172729C31075002DCC55 /* GermanCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GermanCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE15172A29C31075002DCC55 /* GermanCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanCardApp.swift; sourceTree = "<group>"; };
+		DE15172C29C31075002DCC55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE15172E29C31077002DCC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE15173129C31077002DCC55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE15173729C31077002DCC55 /* GermanCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GermanCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE15173B29C31077002DCC55 /* GermanCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanCardTests.swift; sourceTree = "<group>"; };
+		DE15174129C31077002DCC55 /* GermanCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GermanCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE15174529C31077002DCC55 /* GermanCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanCardUITests.swift; sourceTree = "<group>"; };
+		DE15174729C31078002DCC55 /* GermanCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE15175529C313B2002DCC55 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		DE15175729C31483002DCC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DE15175829C31E77002DCC55 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE15172429C31075002DCC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE15173429C31077002DCC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE15173E29C31077002DCC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE15171E29C31075002DCC55 = {
+			isa = PBXGroup;
+			children = (
+				DE15172929C31075002DCC55 /* GermanCard */,
+				DE15173A29C31077002DCC55 /* GermanCardTests */,
+				DE15174429C31077002DCC55 /* GermanCardUITests */,
+				DE15172829C31075002DCC55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE15172829C31075002DCC55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE15172729C31075002DCC55 /* GermanCard.app */,
+				DE15173729C31077002DCC55 /* GermanCardTests.xctest */,
+				DE15174129C31077002DCC55 /* GermanCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE15172929C31075002DCC55 /* GermanCard */ = {
+			isa = PBXGroup;
+			children = (
+				DE15175729C31483002DCC55 /* Info.plist */,
+				DE15175429C31385002DCC55 /* fonts */,
+				DE15172A29C31075002DCC55 /* GermanCardApp.swift */,
+				DE15172C29C31075002DCC55 /* ContentView.swift */,
+				DE15175829C31E77002DCC55 /* InfoView.swift */,
+				DE15172E29C31077002DCC55 /* Assets.xcassets */,
+				DE15173029C31077002DCC55 /* Preview Content */,
+			);
+			path = GermanCard;
+			sourceTree = "<group>";
+		};
+		DE15173029C31077002DCC55 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE15173129C31077002DCC55 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE15173A29C31077002DCC55 /* GermanCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE15173B29C31077002DCC55 /* GermanCardTests.swift */,
+			);
+			path = GermanCardTests;
+			sourceTree = "<group>";
+		};
+		DE15174429C31077002DCC55 /* GermanCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE15174529C31077002DCC55 /* GermanCardUITests.swift */,
+				DE15174729C31078002DCC55 /* GermanCardUITestsLaunchTests.swift */,
+			);
+			path = GermanCardUITests;
+			sourceTree = "<group>";
+		};
+		DE15175429C31385002DCC55 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DE15175529C313B2002DCC55 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE15172629C31075002DCC55 /* GermanCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE15174B29C31078002DCC55 /* Build configuration list for PBXNativeTarget "GermanCard" */;
+			buildPhases = (
+				DE15172329C31075002DCC55 /* Sources */,
+				DE15172429C31075002DCC55 /* Frameworks */,
+				DE15172529C31075002DCC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GermanCard;
+			productName = GermanCard;
+			productReference = DE15172729C31075002DCC55 /* GermanCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE15173629C31077002DCC55 /* GermanCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE15174E29C31078002DCC55 /* Build configuration list for PBXNativeTarget "GermanCardTests" */;
+			buildPhases = (
+				DE15173329C31077002DCC55 /* Sources */,
+				DE15173429C31077002DCC55 /* Frameworks */,
+				DE15173529C31077002DCC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE15173929C31077002DCC55 /* PBXTargetDependency */,
+			);
+			name = GermanCardTests;
+			productName = GermanCardTests;
+			productReference = DE15173729C31077002DCC55 /* GermanCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE15174029C31077002DCC55 /* GermanCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE15175129C31078002DCC55 /* Build configuration list for PBXNativeTarget "GermanCardUITests" */;
+			buildPhases = (
+				DE15173D29C31077002DCC55 /* Sources */,
+				DE15173E29C31077002DCC55 /* Frameworks */,
+				DE15173F29C31077002DCC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE15174329C31077002DCC55 /* PBXTargetDependency */,
+			);
+			name = GermanCardUITests;
+			productName = GermanCardUITests;
+			productReference = DE15174129C31077002DCC55 /* GermanCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE15171F29C31075002DCC55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DE15172629C31075002DCC55 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DE15173629C31077002DCC55 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DE15172629C31075002DCC55;
+					};
+					DE15174029C31077002DCC55 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DE15172629C31075002DCC55;
+					};
+				};
+			};
+			buildConfigurationList = DE15172229C31075002DCC55 /* Build configuration list for PBXProject "GermanCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE15171E29C31075002DCC55;
+			productRefGroup = DE15172829C31075002DCC55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE15172629C31075002DCC55 /* GermanCard */,
+				DE15173629C31077002DCC55 /* GermanCardTests */,
+				DE15174029C31077002DCC55 /* GermanCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE15172529C31075002DCC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE15175629C313B2002DCC55 /* Pacifico-Regular.ttf in Resources */,
+				DE15173229C31077002DCC55 /* Preview Assets.xcassets in Resources */,
+				DE15172F29C31077002DCC55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE15173529C31077002DCC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE15173F29C31077002DCC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE15172329C31075002DCC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE15172D29C31075002DCC55 /* ContentView.swift in Sources */,
+				DE15175929C31E77002DCC55 /* InfoView.swift in Sources */,
+				DE15172B29C31075002DCC55 /* GermanCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE15173329C31077002DCC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE15173C29C31077002DCC55 /* GermanCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE15173D29C31077002DCC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE15174829C31078002DCC55 /* GermanCardUITestsLaunchTests.swift in Sources */,
+				DE15174629C31077002DCC55 /* GermanCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE15173929C31077002DCC55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE15172629C31075002DCC55 /* GermanCard */;
+			targetProxy = DE15173829C31077002DCC55 /* PBXContainerItemProxy */;
+		};
+		DE15174329C31077002DCC55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE15172629C31075002DCC55 /* GermanCard */;
+			targetProxy = DE15174229C31077002DCC55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE15174929C31078002DCC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE15174A29C31078002DCC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE15174C29C31078002DCC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GermanCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 976NTK47XK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GermanCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.germanpaul.GermanCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE15174D29C31078002DCC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GermanCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 976NTK47XK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GermanCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.germanpaul.GermanCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE15174F29C31078002DCC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 976NTK47XK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.germanpaul.GermanCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GermanCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GermanCard";
+			};
+			name = Debug;
+		};
+		DE15175029C31078002DCC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 976NTK47XK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.germanpaul.GermanCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GermanCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GermanCard";
+			};
+			name = Release;
+		};
+		DE15175229C31078002DCC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 976NTK47XK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.germanpaul.GermanCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GermanCard;
+			};
+			name = Debug;
+		};
+		DE15175329C31078002DCC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 976NTK47XK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.germanpaul.GermanCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GermanCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE15172229C31075002DCC55 /* Build configuration list for PBXProject "GermanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE15174929C31078002DCC55 /* Debug */,
+				DE15174A29C31078002DCC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE15174B29C31078002DCC55 /* Build configuration list for PBXNativeTarget "GermanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE15174C29C31078002DCC55 /* Debug */,
+				DE15174D29C31078002DCC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE15174E29C31078002DCC55 /* Build configuration list for PBXNativeTarget "GermanCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE15174F29C31078002DCC55 /* Debug */,
+				DE15175029C31078002DCC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE15175129C31078002DCC55 /* Build configuration list for PBXNativeTarget "GermanCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE15175229C31078002DCC55 /* Debug */,
+				DE15175329C31078002DCC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE15171F29C31075002DCC55 /* Project object */;
+}
